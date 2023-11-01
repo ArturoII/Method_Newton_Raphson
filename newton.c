@@ -43,8 +43,9 @@ void derivar() {
     printf("La derivada de la función ingresada es: %.2lf * x^%.2lf  %.2lf * x^%.2lf  %.2lf * x^%.2lf\n", da, db,  dd, de, dg, dh);    
 }
 
-void newtonRapson() {
-   
+double newtonRapson(double x1) {
+    x = x1;
+    resul= (x - ((a * pow(x, b) + d * pow(x, e) - g * pow(x, h)) / (da * pow(x, db) + dd * pow(x, de) - dg * pow(x, dh))));
 }
 
 int main(int argc, char** argv) {
