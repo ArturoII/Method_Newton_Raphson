@@ -19,7 +19,7 @@ extern "C" {
 
 void derivar();
 void crear(double,double,double,double,double,double);
-void newtonRapson();
+double newtonRapson(double);
 
     #ifdef __cplusplus
 
