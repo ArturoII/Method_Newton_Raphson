@@ -18,7 +18,7 @@ extern "C" {
 #endif
 
 void derivar();
-void crear();
+void crear(double,double,double,double,double,double);
 void newtonRapson();
 
     #ifdef __cplusplus

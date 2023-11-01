@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=libnewton
+PROJECTNAME=Method_Newton_Raphson
 
 # Active Configuration
 DEFAULTCONF=Debug
