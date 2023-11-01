@@ -40,7 +40,7 @@ void derivar() {
     dg = g * h;
     dh = h - 1;
 
-    printf("La derivada de la función ingresada es: %.2lf * x^%.2lf %c %.2lf * x^%.2lf %c %.2lf * x^%.2lf\n", da, db, c, dd, de, f, dg, dh);    
+    printf("La derivada de la función ingresada es: %.2lf * x^%.2lf  %.2lf * x^%.2lf  %.2lf * x^%.2lf\n", da, db,  dd, de, dg, dh);    
 }
 
 void newtonRapson() {
