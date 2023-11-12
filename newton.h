@@ -5,7 +5,7 @@
 
 /* 
  * File:   newton.h
- * Author: brand
+ * Author: Valentina Plaza Azcarate
  *
  * Created on 31 de octubre de 2023, 8:53 p. m.
  */
@@ -29,4 +29,3 @@ double newtonRapson(double);
 #endif
 
 #endif /* NEWTON_H */
-
