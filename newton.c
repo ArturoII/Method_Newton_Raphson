@@ -5,7 +5,7 @@
 
 /* 
  * File:   newton.c
- * Author: brand
+ * Author: Angie
  *
  * Created on 31 de octubre de 2023, 8:49 p. m.
  */
@@ -13,6 +13,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+
 
 /*
  * 
@@ -54,14 +55,8 @@ double newtonRapson(double x1) {
         if(resul == resul_anterior){
             return resul;
             break;
-        }
-    }
+        }
+    }    
     return resul;
     
 }
-
-int main(int argc, char** argv) {
-
-    return (EXIT_SUCCESS);
-}
-
