@@ -35,6 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/app.o \
 	${OBJECTDIR}/newton.o
 
 
@@ -63,6 +64,11 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libmethod_newton_raphson.a: ${OBJECTF
 	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libmethod_newton_raphson.a
 	${AR} -rv ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libmethod_newton_raphson.a ${OBJECTFILES} 
 	$(RANLIB) ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libmethod_newton_raphson.a
+
+${OBJECTDIR}/app.o: app.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/app.o app.c
 
 ${OBJECTDIR}/newton.o: newton.c
 	${MKDIR} -p ${OBJECTDIR}

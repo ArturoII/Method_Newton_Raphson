@@ -13,6 +13,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>app.c</itemPath>
       <itemPath>newton.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -31,7 +32,7 @@
   <confs>
     <conf name="Debug" type="3">
       <toolsSet>
-        <compilerSet>default</compilerSet>
+        <compilerSet>GNU|GNU</compilerSet>
         <dependencyChecking>true</dependencyChecking>
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
@@ -39,6 +40,8 @@
         <archiverTool>
         </archiverTool>
       </compileType>
+      <item path="app.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="newton.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="newton.h" ex="false" tool="3" flavor2="0">
@@ -66,6 +69,8 @@
         <archiverTool>
         </archiverTool>
       </compileType>
+      <item path="app.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="newton.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="newton.h" ex="false" tool="3" flavor2="0">

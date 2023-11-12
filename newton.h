@@ -10,7 +10,7 @@
  * Created on 31 de octubre de 2023, 8:53 p. m.
  */
 
-#ifndef NEWTON_H
+#ifdef NEWTON_H
 #define NEWTON_H
 
 #ifdef __cplusplus
@@ -20,9 +20,6 @@ extern "C" {
 void derivar();
 void crear(double,double,double,double,double,double);
 double newtonRapson(double);
-
-    #ifdef __cplusplus
-
 
 #ifdef __cplusplus
 }
