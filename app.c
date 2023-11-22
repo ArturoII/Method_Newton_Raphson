@@ -5,9 +5,10 @@
 
 int main(){
     
-    crear(5,4,2,7,1,0);
+    crear(2,2,2,1,-3,0);
     derivar();
   double x =  newtonRapson(10);
   printf("%.21f",x);
+    
     
 }
